@@ -1,0 +1,58 @@
+form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#submit {
+    width: 10%;
+    background-color: yellow;
+    color: #000000;
+    padding: 15px 20px;
+    margin: 8px 8px;
+    border: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+hsubmit [type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(check_radio_sheet.png) left top no-repeat;
+    cursor:pointer;
+}
+
+div {
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+body {
+  background-color: #aaaaaa;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
